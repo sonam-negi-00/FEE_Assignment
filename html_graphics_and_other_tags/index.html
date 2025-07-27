@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Tasks Example</title>
+
+  
+   <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_GgECjLjtryKRyz1P3UBMEcW2akJF_TOdPg&s">
+
+  <style>
+  
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%; 
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    pre {
+      background: #f4f4f4;
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+
+    code {
+      font-family: monospace;
+      color: #c7254e;
+    }
+
+    kbd {
+      background-color: #eee;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      padding: 2px 5px;
+      font-size: 90%;
+      font-family: monospace;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <h2>1. Display Raw HTML Symbols</h2>
+  <p>Symbols displayed using HTML entities:</p>
+  <p>&lt; &gt; &amp; &quot;</p>
+
+
+  <h2>2. Use of &lt;pre&gt;, &lt;code&gt;, and &lt;kbd&gt; Tags</h2>
+
+  <p>Here is a block of preformatted code:</p>
+  <pre><code>
+  #include &lt;iostream&gt;
+  using namespace std;
+
+  int main() {
+    cout &lt;&lt; "Hello, My Name is Sonam!";
+    return 0;
+  }
+  </code></pre>
+
+  <p>To save your file, press <kbd>Ctrl</kbd> + <kbd>S</kbd></p>
+
+
+ <h2>Embedded Media using iframe</h2>
+  <div class="video-container">
+   
+
+  <h2>Video Section</h2>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/HTeP7ja9UFY" title="Maand (Lyrics) - Bayaan, Hasan Raheem, Rovalio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+
+</body>
+</html>
